@@ -6,8 +6,8 @@ public class ProxyDownloadImpl implements Download {
     private Boolean permission;
     private DownloadImpl download;
 
-    public ProxyDownloadImpl(Boolean canDownload) {
-        this.permission = canDownload;
+    public ProxyDownloadImpl(Boolean permission) {
+        this.permission = permission;
     }
 
     @Override
