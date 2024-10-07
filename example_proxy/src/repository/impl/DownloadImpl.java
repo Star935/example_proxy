@@ -6,16 +6,16 @@ public class DownloadImpl implements Download {
 
     @Override
     public void downloadFile(String file) {
-        System.out.println("Descargando " + file + "....");
+        System.out.println("Downloading " + file + "....");
     }
 
     @Override
     public void showFile(String file) {
-        System.out.println("Mostrando archivo " + file + "....");
+        System.out.println("Showing the file " + file + "....");
     }
 
     @Override
     public void close() {
-        System.out.println("Cerrando la conexión....");
+        System.out.println("Closing the connection....");
     }
 }
